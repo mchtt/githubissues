@@ -1,0 +1,75 @@
+:root{
+  --tableWidth: 1400px;
+}
+
+.banner {
+  font-size: 2em;
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 50px;
+}
+
+.table {
+  margin: 0 auto 0 auto;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 1px 10px 10px 10px;
+  text-align: center;
+  width: var(--tableWidth);
+}
+
+.table:hover {
+  background-color: #EEE;
+}
+
+.tableHeader{
+  margin: 10px auto 0 auto;
+  background-color: #EEE;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  width: var(--tableWidth);
+}
+
+.tableHeaderItemsLeft{
+  margin: 10px 300px 10px 20px;
+  font-size: 1.5em;
+}
+
+.tableHeaderItemsRight{
+  margin: 10px 10px 10px 10px;
+  font-size: 1.4em;
+  letter-spacing: -1px;
+  color: #777;
+}
+
+span{
+  margin: 0px 10px 10px 0px;
+}
+
+i{
+  margin: 0px 10px 0px 10px;
+}
+
+.tableTitle > a{
+  text-decoration: none;
+  color: black;
+}
+
+.tableTitle {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.tableInfos {
+  font-size: 1.2em;
+  color: #777;
+  text-align: justify;
+}
+
+.tableLeftIcon {
+  margin: 10px 10px 0 10px;
+  color: green;
+  font-size: 1.5em;
+}
